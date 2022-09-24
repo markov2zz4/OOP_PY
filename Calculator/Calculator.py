@@ -4,28 +4,14 @@ from tkinter import messagebox
 import tkinter as tk
 import math
 
-def decimal_to_binary(x):
-    return bin(x)
-
-def decimal_to_octal(x):
-    string = ""
-    ost = 0
-    while(x >= 8):
-        ost = x % 8
-        x //= 8
-        string += str(ost)
-    string += str(x)
-    return string[::-1]
-
-def decimal_to_sixteen(x):
+def decimal_to_ss(x, ss):
     string = ""
     ost = 0
     letters = {10: "A", 11: "B", 12: "C", 13: "D", 14: "E", 15: "F"}
 
-    while(x >= 16):
-        ost = x % 16
-        x //= 16
-
+    while(x >= ss):
+        ost = x % ss
+        x //= ss
         if(ost in letters):
             string += letters[ost]
         else:
@@ -38,18 +24,15 @@ screen = Tk()
 screen.title("Calculator")
 screen.geometry("400x340")
 
-try:
-    fstLabel = Label(text="Enter first number").place(x=20, y=20)
+fstLabel = Label(text="Enter first number").place(x=20, y=20)
 
-    fstNum = Entry(screen, text="0", width=5, justify=CENTER)
-    fstNum.place(height=30,x=50, y=50)
+fstNum = Entry(screen, text="0", width=5, justify=CENTER)
+fstNum.place(height=30,x=50, y=50)
 
-    sndLabel = Label(text="Enter second number").place(x=160, y=20)
+sndLabel = Label(text="Enter second number").place(x=160, y=20)
 
-    sndNum = Entry(screen,text="1", width=5, justify=CENTER)
-    sndNum.place(height=30,x=200, y=50)
-except ValueError:
-    print("Error with data")
+sndNum = Entry(screen,text="1", width=5, justify=CENTER)
+sndNum.place(height=30,x=200, y=50)
 
 listBar = ttk.Combobox(screen, values = ["+", "-", "*", "/", "//", "%", "^"])
 listBar.place(width=50, height=30, x=200, y=100)
@@ -92,12 +75,10 @@ def getNums():
     result = Operation(operand,fst,snd)
 
     decimalSS.config(text=result)
-    binSS.config(text=decimal_to_binary(result))
-    eightSS.config(text=decimal_to_octal(result))
-    sixteenSS.config(text=decimal_to_sixteen(result))
+    binSS.config(text=decimal_to_ss(result,2))
+    eightSS.config(text=decimal_to_ss(result,8))
+    sixteenSS.config(text=decimal_to_ss(result,16))
 
 operationButton = Button(width=2,height=1,text="=", command=getNums).place(x=300,y=50)
-
-
 
 screen.mainloop()
