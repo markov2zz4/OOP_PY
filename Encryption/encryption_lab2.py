@@ -5,7 +5,6 @@ import random
 
 global dic
 dic = {}
-# dic = {"key" : -1, "Key" : 5}
 def get_key(string):
     i = 0
     key = phrase_l = phrase_n = phrase_o = ""
@@ -47,9 +46,7 @@ def encrypt_btn():
 
     step = randint(1, 10)
     dic.update({key: step})
-        #----!!!!----#
     encrypt_phrase += encrypt(phrase_key, step)
-        #----!!!!----#
 
     print(encrypt_phrase)
 
@@ -71,9 +68,8 @@ def decipher_btn():
     if key != get_key(pass_entry):
         step = randint(10, 20)
     else: step = dic[get_key(pass_entry)]
-        #----!!!!----#
+
     decipher_phrase += decipher(encryption_phrase, step)
-        #----!!!!----#
 
     answer = mb.askyesno("Расшифрованный текст",
                          f"Расшифрованный текст: \n{decipher_phrase}\n" f"Сохранить результат в файл?")
