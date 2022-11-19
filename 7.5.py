@@ -17,9 +17,7 @@ class Company():
 class Employee(Person, Company):
     def __init__(self, name, surname, age, company_name, location):
         super().__init__(name, surname, age)
-        
-        self.company_name = company_name
-        self.location = location
+        Company.__init__(self, company_name, location)
         
 
 emp = Employee('Jessica', 'Smith', 28, 'Google', 'Atlanta')
