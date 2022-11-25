@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74986aee-fa91-484c-bd14-0bbeba0f245b" name="Default Changelist" comment="Commit lab #5">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OOP_PY.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OOP_PY.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="74986aee-fa91-484c-bd14-0bbeba0f245b" name="Default Changelist" comment="Commit lab #8">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/.vs/Calculator/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/.vs/Calculator/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.5.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +106,8 @@
       <workItem from="1666420719828" duration="5930000" />
       <workItem from="1667641413169" duration="647000" />
       <workItem from="1668138815870" duration="620000" />
+      <workItem from="1668139645947" duration="6000" />
+      <workItem from="1669364289523" duration="3514000" />
     </task>
     <task id="LOCAL-00001" summary="Commit encryption_lab2.py trueeeeeee">
       <created>1665499509623</created>
@@ -159,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668139212501</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit lab #8">
+      <created>1669367773929</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669367773929</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Commit lab #8">
+      <created>1669367786101</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669367786101</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -209,12 +222,14 @@
     <MESSAGE value="Commit encryption_lab2.py trueeeeeee" />
     <MESSAGE value="Commit lab #4" />
     <MESSAGE value="Commit lab #5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit lab #5" />
+    <MESSAGE value="Commit lab #8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit lab #8" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/encryption_lab2_py$3.coverage" NAME="3 Coverage Results" MODIFIED="1666422848981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Лабораторная №4" />
     <SUITE FILE_PATH="coverage/encryption_lab2_py$test.coverage" NAME="test Coverage Results" MODIFIED="1665499035136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Encryption" />
     <SUITE FILE_PATH="coverage/1_py$2.coverage" NAME="2 Coverage Results" MODIFIED="1667641722419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Лабораторная №5" />
+    <SUITE FILE_PATH="coverage/encryption_lab2_py$8_2.coverage" NAME="8.2 Coverage Results" MODIFIED="1669367617827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Лабораторная №8" />
     <SUITE FILE_PATH="coverage/encryption_lab2_py$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1666425678748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Лабораторная №4" />
     <SUITE FILE_PATH="coverage/1_py$3.coverage" NAME="3 Coverage Results" MODIFIED="1667641800869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Лабораторная №5" />
     <SUITE FILE_PATH="coverage/encryption_lab2_py$1.coverage" NAME="1 Coverage Results" MODIFIED="1666421472540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Лабораторная №4" />
@@ -223,6 +238,7 @@
     <SUITE FILE_PATH="coverage/1_py$4.coverage" NAME="4 Coverage Results" MODIFIED="1667641976271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Лабораторная №5" />
     <SUITE FILE_PATH="coverage/encryption_lab2_py$2.coverage" NAME="2 Coverage Results" MODIFIED="1666422657597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Лабораторная №4" />
     <SUITE FILE_PATH="coverage/encryption_lab2_py$5.coverage" NAME="5 Coverage Results" MODIFIED="1666426376272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Лабораторная №4" />
+    <SUITE FILE_PATH="coverage/encryption_lab2_py$8_1.coverage" NAME="8.1 Coverage Results" MODIFIED="1669365756469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Лабораторная №8" />
     <SUITE FILE_PATH="coverage/encryption_lab2_py$encryption_lab2.coverage" NAME="encryption_lab2 Coverage Results" MODIFIED="1666421212147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Encryption" />
     <SUITE FILE_PATH="coverage/6_3_py$6_3.coverage" NAME="6.3 Coverage Results" MODIFIED="1668139422201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Лабораторная №6" />
   </component>
