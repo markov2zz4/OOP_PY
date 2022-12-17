@@ -1,7 +1,26 @@
-class CustomButton:
-    def __init__(self, text, **kwargs):
-        self.text = text
-        for args in kwargs.items():
-            print(args[0], args[1])
+def is_include_digit(password):
+    for i in range(len(password)):
+        if password[i].isdigit():
+            return True
+    raise ValueError('Пароль должен содержать хотя бы одну цифру')
 
-btn = CustomButton(text="Hello", bd=20, bg='#ffaaaa', test="abcd", temp=None)
+def is_include_all_register(password):
+    for i in range(len(password)):
+        if password[i].isupper():
+            return True
+    return False
+
+
+def is_include_only_latin(password):
+    return password.isascii()
+
+
+def check_password_dictionary(password):
+    with open('easy_passwords.txt') as f:
+        if password in f.read():
+            return True
+    return False
+
+passwd = 'sadadAAAA123123'
+
+print(check_password_dictionary(passwd))
